@@ -14,11 +14,11 @@ First things first, find this line of code in my script and make sure it points 
 
 After the file.loc script variable has been changed to your data directory, the script can be executed.
 The run_analysis.R script: 
--combines train and test data
--filters the dataset to only look at variables that deal with mean or standard deviation
--computes the mean of those fields for each subject / activity combination (ex: Subject 1 - Walking)
--applies meaningful column names to the data set
--generates the CleanAndTidy.csv and CleanAndTidy.txt files in your working directory
+       -combines train and test data
+       -filters the dataset to only look at variables that deal with mean or standard deviation
+       -computes the mean of those fields for each subject / activity combination (ex: Subject 1 - Walking)
+       -applies meaningful column names to the data set
+       -generates the CleanAndTidy.csv and CleanAndTidy.txt files in your working directory
 
 ### 3) Output 
 
