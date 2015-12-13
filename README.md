@@ -1,6 +1,6 @@
 # CleaningDataProject
-http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html (good example for how markdown works) \n \n
-Getting and Cleaning Data Course Project \n \n
+
+Getting and Cleaning Data Course Project 
 This script reads in data from a directory (UCI HAR Dataset) and puts that data in a "tidy" format.
 
 ## How To:
@@ -13,12 +13,18 @@ First things first, find this line of code in my script and make sure it points 
 ### 2) Execute the run_analysis.R script
 
 After the file.loc script variable has been changed to your data directory, the script can be executed.
+The run_analysis.R script: 
+-combines train and test data
+-filters the dataset to only look at variables that deal with mean or standard deviation
+-computes the mean of those fields for each subject / activity combination (ex: Subject 1 - Walking)
+-applies meaningful column names to the data set
+-generates the CleanAndTidy.csv and CleanAndTidy.txt files in your working directory
 
 ### 3) Output 
 
 The run_analysis.R script generates the CleanAndTidy.csv and CleanAndTidy.txt files
 
-## Codebook
+## Codebook:
 
 Please see the code book in this repo for more information regarding the variables in the output files and 
 
